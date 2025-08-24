@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #000;
+  font-family: Arial, sans-serif;
+}
+
+.image {
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  opacity: 0; /* start hidden */
+  margin: 100px auto; /* centers image + gives space between */
+  display: flex;
+  align-items: flex-end; /* caption will stick at bottom */
+  justify-content: center;
+  position: relative;
+}
+.caption {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0 0 15px 15px;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
