@@ -10,10 +10,10 @@ body {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
-  opacity: 0; /* start hidden */
-  margin: 100px auto; /* centers image + gives space between */
+  opacity: 0; 
+  margin: 100px auto;
   display: flex;
-  align-items: flex-end; /* caption will stick at bottom */
+  align-items: flex-end; 
   justify-content: center;
   position: relative;
 }
